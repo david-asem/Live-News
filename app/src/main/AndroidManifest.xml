@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.dave.android.livenews">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name=".Cache"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.Splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.MainActivity"/>
+
+        <activity android:name=".Activities.GeneralActivity"/>
+
+        <activity android:name=".Activities.BusinessActivity"/>
+
+        <activity android:name=".Activities.EntertainActivity"/>
+
+        <activity android:name=".Activities.SportsActivity"/>
+
+        <activity android:name=".Activities.TechActivity"/>
+
+        <activity android:name=".Activities.Settings"/>
+
+        <activity android:name=".Activities.About">
+            <intent-filter>
+                <action android:name="com.dave.android.livenews.Activities.About"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

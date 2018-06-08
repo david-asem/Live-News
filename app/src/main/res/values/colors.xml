@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8B008B</color>
+    <color name="colorPrimaryDark">#660066</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+    <color name="book_loading_book">#8B008B</color>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dave.android.livenews.Activities.About"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intro2"
+        android:layout_centerInParent="true"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/image"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:typeface="serif"
+        android:id="@+id/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/app_name"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

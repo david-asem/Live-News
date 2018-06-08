@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:title="@string/notify"
+        android:key="notification"
+        android:defaultValue="true"
+        android:summary="@string/notify_summary"/>
+
+
+    <Preference
+        android:title="Developer"
+        android:key="developer"
+        android:summary="@string/developer"/>
+
+    <Preference
+        android:title="@string/about"
+        android:summary="@string/version">
+        <intent android:action="com.dave.android.livenews.Activities.About"/>
+    </Preference>
+
+
+
+
+
+</PreferenceScreen>
