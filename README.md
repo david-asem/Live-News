@@ -1,2 +1,2 @@
-# live_news
-Android app for live news feed
+# A live news mobile app
+And android application for live news feed on various subjects
